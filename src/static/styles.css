@@ -73,6 +73,22 @@ section h3 {
 .participants-list {
   margin-top: 5px;
   padding-left: 20px;
+  list-style: none; /* hide bullets */
+}
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.remove-btn:hover {
+  color: #ff1744;
 }
 
 .participants-list li {
